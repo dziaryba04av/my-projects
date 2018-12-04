@@ -11,5 +11,8 @@ https://github.com/dziaryba04av/my-projects/tree/layout
 PixelPerfect layout 2:
 https://github.com/dziaryba04av/my-projects/tree/layout-2  
 Simple notification:
-https://github.com/dziaryba04av/my-projects/tree/notification
+https://github.com/dziaryba04av/my-projects/tree/notification  
+  
+My own clone of Invokergame:  
+https://github.com/dziaryba04av/my-projects/tree/Invoker-game
 
