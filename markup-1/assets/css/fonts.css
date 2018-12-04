@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Lato"; 
+    src: url("../fonts/lato/Lato-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Monsterrat"; 
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
