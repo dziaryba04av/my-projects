@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.startButton,
+.score {
+    height: 100px;
+    width: 300px;
+    font-size: 36px;
+    line-height: 96px;
+    text-align: center;
+    border: 3px solid white;
+    margin: 0 auto;
+    color: white;
+}
+
+.spellBar {
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border: 2px solid black;
+    background-size: cover; 
+}
+
+.task {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-do {
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    height: 50px;
+    width: 300px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+}
+
+.spells-to-do {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    border: 3px solid black;
+    height: 100px;
+    width: 600px;
+}
+
+.score {
+    display: none;
+    overflow: hidden;
+}
+
+.startButton:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+    height: 570px;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body,
+.spheres,
+.keys,
+.task {
+    display: flex;
+}
+
+.gamefield {
+    display: none;
+}
+
+.gamefield {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 570px;
+    width: 100%;
+}
+
+.task {
+    height: 150px;
+    width: 300px;
+}
+
+.spheres {
+    height: 100px;
+    width: 300px;
+}
+
+.keys {
+    height: 100px;
+    width: 600px;
+}
+
+canvas {
+    height: 30px;
+    width: 600px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.sphere {
+    border-radius: 50px;
+    background-color: black;
+}
+
+.sphere,
+.spell,
+.invoke,
+.quas,
+.wex,
+.exort {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid darkgoldenrod;
+}
+
+.sphere,
+.spell,
+.quas,
+.wex,
+.exort {
+    color: white
+}
+
+.spell {
+    background-color: black;
+}
+
+.invoke {
+    background-image: url('../images/invoke.jpg');
+}
+
+.quas {
+    background-image: url('../images/quas.jpg');
+}
+
+.wex {
+    background-image: url('../images/wex.jpg');
+}
+
+.exort {
+    background-image: url('../images/exort.jpg');
+}
+
+.inGameScore {
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    border: 2px darkgoldenrod solid;
+    line-height: 50px;
+    font-size: 24px;
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+}
+
+.repeat {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid white;
+    margin: 0 auto;
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+    display: none;
+    margin-top: 20px;
+}
+
+.repeat:hover {
+    color: black;
+    background-color: white;
+}
