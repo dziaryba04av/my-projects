@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.notification {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: none;
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.heading {
+  margin: 5px 0 0 10px;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Calibri;
+  color: darkblue;
+}
+
+.x-mark {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 16px;
+  color: grey;
+}
+
+.x-mark:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+
+.notification-textfield {
+  height: 50px;
+  max-height: 50px;
+  overflow: hidden;
+  font-size: 14px;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-family: Calibri;
+  color: white;
+  background-color: darkblue
+}
+
+.control {
+  margin-top: 15px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: Calibri;
+}
+
+.not-managment > div {
+  display: inline-block;
+  font-size: 24px;
+  color: darkblue;
+  user-select: none;
+}
+
+.control div > i:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+
+.message-choise-buttons {
+  vertical-align: top;
+}
+
+.message-choise-buttons,
+.choise-item {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.choise-item {
+  width: 30px;
+  height:  30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.chosen {
+  color: grey;
+}
+
+.unchosen {
+  color: darkblue;
+}
